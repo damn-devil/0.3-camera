@@ -1,5 +1,5 @@
-const CACHE = '0.3mp-v1';
-const URLS = ['/', '/index.html', '/manifest.json'];
+const CACHE = '0.3mp-v2';
+const URLS = ['.', 'index.html', 'manifest.json'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(
